@@ -1,0 +1,19 @@
+body{
+
+}
+
+#parent{
+    margin: 10;
+    
+    height: 100px;
+    width: 20px;
+    background-color: aqua;
+    border: 100px;
+    border-radius: 11px;
+    position: relative;
+}
+
+#child{
+    height: 50%;
+    width: 40%;
+}
