@@ -1,19 +1,54 @@
 body{
 
 }
-
-#parent{
-    margin: 10;
-    
-    height: 100px;
-    width: 20px;
-    background-color: aqua;
-    border: 100px;
-    border-radius: 11px;
-    position: relative;
+#one{
+    width: 200px;
+    background-color: purple;
+    transition: 3s; 
+    transition-timing-function: 3s;
+}
+#four{
+    height:100px;
+    width: 100px;
+    background-color: pink;
+    transition: 3s; 
+    transition-timing-function:3s ;
+    transition-timing-function: ease-in-out;
+}#parent{
+    border: 2px solid red;
+    height: 800px;
+    width: 1000px;
 }
 
-#child{
-    height: 50%;
-    width: 40%;
+ #one{
+    height:700px;
+    width: 800px;
+    background-color: black;
+    transition: 3s; 
+    transition-timing-function: ease-in;
+}
+#parent:hover .one{
+    margin-left: 900px;
+    /* border-radius: 50%; */
+    transform:rotate(150deg);
+}
+#one{
+    height:100px;
+    width: 100px;
+    background-color: red;
+    transition-timing-function: 3s;
+}
+#two{
+    height:100px;
+    width: 100px;
+    background-color: blue;
+    transition: 3s; 
+    transition-timing-function: 3s;
+}
+#three{
+     height:100px;
+    width: 100px;
+    background-color: rgb(192, 255, 228);
+    transition: 3s; 
+    transition-timing-function: 3s
 }
