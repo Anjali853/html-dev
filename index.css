@@ -29,8 +29,10 @@ body{
 }
 #parent:hover .one{
     margin-left: 900px;
-    /* border-radius: 50%; */
-    transform:rotate(150deg);
+    border-radius: 50%;
+    transform:margin-left(150deg);
+    /* transition-property: all; */
+    /* transform: matrix(4); */
 }
 #one{
     height:100px;
