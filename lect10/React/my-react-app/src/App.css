@@ -45,7 +45,7 @@
   background-color: blueviolet;
 } */
 
-#card{
+/* #card{
   display: inline-block;
   margin: 40px;
   padding: 10px;
@@ -74,4 +74,60 @@ button{
 
 button:hover {
   background-color: rgb(255, 165, 0);
+} */
+
+/* button{
+  border-radius:20px;
+  height: 40px;
+  width: 80px;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(223, 159, 39);
+} */
+
+button:hover {
+  background-color: rgb(255, 165, 0);
+}
+body{
+  background-color: purple;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div{
+  background-color: violet;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gold;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: darkorange;
+  box-shadow: 0 0 5px darkorange;
+}
+
+button {
+  background-color: firebrick;
+  color: white;
+  width: 20p;
+  padding: 10px 20px;
+  border: gold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px 0;
+  display: flex;
 }
